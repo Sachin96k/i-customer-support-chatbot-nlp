@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! Welcome to customer support. How can I help you today?",
+        "Hi there! What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "that's all"
+      ],
+      "responses": [
+        "Goodbye! Thank you for contacting support.",
+        "Thanks for chatting with us. Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "that's helpful",
+        "appreciate your help"
+      ],
+      "responses": [
+        "You're welcome! Is there anything else I can help you with?",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my order",
+        "order status",
+        "when will my order arrive",
+        "my package has not arrived",
+        "track package"
+      ],
+      "responses": [
+        "You can check your order status from the Orders section of your account. Keep your order ID ready if you contact support.",
+        "For order tracking, open your account and select Orders. If tracking has not updated, please contact a support agent with your order ID."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "how much is shipping",
+        "shipping charges",
+        "delivery fee",
+        "is delivery free",
+        "shipping cost"
+      ],
+      "responses": [
+        "Shipping charges depend on the delivery location and order value. The exact fee is shown at checkout before you place the order."
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "how long does delivery take",
+        "delivery time",
+        "when will it be delivered",
+        "estimated delivery",
+        "how many days for shipping"
+      ],
+      "responses": [
+        "Delivery estimates are shown at checkout and in your order details. Delays can happen because of weather or courier issues."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "what is your return policy",
+        "can I return an item",
+        "how do returns work",
+        "return product",
+        "return window"
+      ],
+      "responses": [
+        "To request a return, open Orders, select the item, and choose Return if it is eligible. Check the product's return window and condition requirements."
+      ]
+    },
+    {
+      "tag": "refund_status",
+      "patterns": [
+        "where is my refund",
+        "refund status",
+        "when will I get my money back",
+        "refund not received",
+        "how long does refund take"
+      ],
+      "responses": [
+        "Refund timing depends on the payment method and bank. Check the refund status in your order details. If it is overdue, contact support with your order ID and refund reference."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "cancel my order",
+        "I want to cancel",
+        "how do I cancel an order",
+        "stop my shipment",
+        "cancel purchase"
+      ],
+      "responses": [
+        "Open Orders, select the order, and choose Cancel if the option is available. Shipped orders may require a return instead."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "payment failed",
+        "money deducted but order not placed",
+        "payment problem",
+        "card declined",
+        "UPI payment failed",
+        "charged twice"
+      ],
+      "responses": [
+        "Please check your bank or payment app for the transaction status. If money was deducted but no order was created, save the transaction reference and contact support. Never share your PIN, password, or OTP."
+      ]
+    },
+    {
+      "tag": "account_help",
+      "patterns": [
+        "I cannot log in",
+        "forgot my password",
+        "reset password",
+        "account locked",
+        "login problem"
+      ],
+      "responses": [
+        "Use the Forgot Password option on the sign-in page. If your account remains locked, contact support through the official website. Never share your password or OTP."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "how can I get product details",
+        "tell me about a product",
+        "product information",
+        "is this item available",
+        "product specifications"
+      ],
+      "responses": [
+        "Open the product page to view specifications, availability, price, and warranty details. Tell me the product name if you need help finding the right information."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "talk to a human",
+        "contact customer service",
+        "speak to an agent",
+        "human support",
+        "connect me to support"
+      ],
+      "responses": [
+        "I can help with common questions. For a human agent, use the Contact Us section on the official website and include your order or ticket number if applicable."
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "is there a warranty",
+        "warranty period",
+        "product guarantee",
+        "how do I claim warranty",
+        "warranty details"
+      ],
+      "responses": [
+        "Warranty coverage and duration depend on the product. Check the product listing or warranty card, and keep your invoice for any claim."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "xyzabc",
+        "blargh"
+      ],
+      "responses": [
+        "I'm not sure I understood that. Could you rephrase your question or choose a topic such as orders, delivery, returns, refunds, or payments?"
+      ]
+    }
+  ]
+}
